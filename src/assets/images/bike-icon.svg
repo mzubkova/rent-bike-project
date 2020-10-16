@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80.971" height="70.279" viewBox="0 0 80.971 70.279">
+  <g id="Сгруппировать_29" data-name="Сгруппировать 29" transform="translate(-534.031 -1826.891)">
+    <g id="Сгруппировать_4" data-name="Сгруппировать 4" transform="translate(369 1668)">
+      <g id="Эллипс_5" data-name="Эллипс 5" transform="translate(190.863 215.616)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+        <circle cx="2.643" cy="2.643" r="2.643" stroke="none"/>
+        <circle cx="2.643" cy="2.643" r="1.143" fill="none"/>
+      </g>
+      <path id="Контур_10" data-name="Контур 10" d="M217.9,227.623H194.158a3.075,3.075,0,0,1-2.175-.9l-4.286-4.286a5.907,5.907,0,0,1,0-8.354l4.286-4.286a3.075,3.075,0,0,1,2.175-.9H217.9a3.077,3.077,0,0,1,3.077,3.076v12.575A3.077,3.077,0,0,1,217.9,227.623Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.094"/>
+    </g>
+    <g id="Сгруппировать_5" data-name="Сгруппировать 5" transform="translate(369 1668)">
+      <path id="Контур_11" data-name="Контур 11" d="M206.142,204.849" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Контур_12" data-name="Контур 12" d="M230.4,189.611l-2.013-1.538a8.427,8.427,0,0,1-2.846-3.935l-7.554-23.225h5.04" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line id="Линия_6" data-name="Линия 6" y1="18.344" x2="17.347" transform="translate(203.613 170.959)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line id="Линия_7" data-name="Линия 7" x1="25.635" y2="2.815" transform="translate(194.471 168.487)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Контур_13" data-name="Контур 13" d="M194.745,170.954l-14.673,18.657,16.2,2.167" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <g id="Эллипс_6" data-name="Эллипс 6" transform="translate(196.23 187.891)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2">
+        <circle cx="4.481" cy="4.481" r="4.481" stroke="none"/>
+        <circle cx="4.481" cy="4.481" r="3.481" fill="none"/>
+      </g>
+      <g id="Эллипс_7" data-name="Эллипс 7" transform="translate(214.803 173.704)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3">
+        <circle cx="15.599" cy="15.599" r="15.599" stroke="none"/>
+        <circle cx="15.599" cy="15.599" r="14.099" fill="none"/>
+      </g>
+      <g id="Эллипс_8" data-name="Эллипс 8" transform="translate(165.031 173.704)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="3">
+        <circle cx="15.599" cy="15.599" r="15.599" stroke="none"/>
+        <circle cx="15.599" cy="15.599" r="14.099" fill="none"/>
+      </g>
+      <line id="Линия_8" data-name="Линия 8" x1="7.504" y1="27.319" transform="translate(192.021 160.735)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line id="Линия_9" data-name="Линия 9" x2="10.158" transform="translate(188.584 160.735)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

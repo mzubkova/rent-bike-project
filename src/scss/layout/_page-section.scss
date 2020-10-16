@@ -1,0 +1,14 @@
+.page-section {
+  padding: 125px 0;
+
+  &__header {
+    margin-bottom: 55px;
+    position: relative;
+  }
+
+  &__footer {
+    background-color: $bg-white;
+    height: 235px;
+    margin-top: 50px;
+  }
+}

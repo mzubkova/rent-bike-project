@@ -1,0 +1,17 @@
+
+.testimonial-carousel-section {
+  position: relative;
+}
+
+.testimonial-carousel {
+  &__item {
+    &-img {
+      width: 200px;
+    }
+
+    &-text {
+      flex-grow: 1;
+      width: 70%;
+    }
+  }
+}

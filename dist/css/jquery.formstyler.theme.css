@@ -1,0 +1,127 @@
+.jq-selectbox {
+  color: #9c0;
+  cursor: pointer;
+  font-size: 15px;
+  position: relative;
+  vertical-align: middle;
+}
+
+.jq-selectbox__select {
+  border-bottom: 2px solid #78838e;
+  border-top: 2px solid #78838e;
+  color: #9c0;
+  font-size: 15px;
+  font-weight: 400;
+  height: 42px;
+  padding: 12px 10px;
+  text-transform: uppercase;
+  width: 170px;
+}
+
+.jq-selectbox__select:hover {
+  background: none;
+  border-bottom: 2px solid#9c0;
+  border-top: 2px solid #9c0;
+}
+
+.jq-selectbox__select:active {
+  background: none;
+  border-bottom: 2px solid#9c0;
+  border-top: 2px solid #9c0;
+}
+
+.jq-selectbox__select-text {
+  color: #78838e;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 0;
+  margin-top: -3px;
+  max-width: 100%;
+  width: 150px;
+}
+
+.jq-selectbox__select-text {
+  display: block;
+  width: 100%;
+}
+
+.jq-selectbox__trigger {
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.jq-selectbox__trigger-arrow {
+  border-right: 10px solid #9c0;
+  border-top: 10px solid transparent;
+  height: 0;
+  margin: 0;
+  position: absolute;
+  right: 10px;
+  top: 17px;
+  width: 0;
+}
+
+.jq-selectbox ul {
+  background-color: #232f3b;
+  margin: 0;
+  padding: 0;
+  width: 170px;
+}
+
+.jq-selectbox li {
+  align-items: baseline;
+  background-color: #232f3b;
+  border-bottom: 1px solid #2e3c4a;
+  border-left: 4px solid transparent;
+  color: #78838e;
+
+  display: flex;
+  font-size: 15px;
+  font-weight: 400;
+  height: 40px;
+  justify-content: space-between;
+  padding: 10px 14px;
+  text-transform: uppercase;
+
+  span:last-child {
+    color: #fff;
+  }
+
+  .jq-selectbox li.selected {
+    color: #9c0;
+    font-size: 15px;
+  }
+
+  .jq-selectbox li:hover {
+    border-left: 4px solid #9c0;
+    color: #9c0;
+  }
+
+  .jq-selectbox li.disabled:hover {
+    background: none;
+  }
+
+  .selectbox-default__label {
+    color: #78838e;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 7px;
+  }
+
+  .selectbox-active__label {
+    color: #9c0;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 7px;
+  }
+
+  .jq-selectbox__dropdown {
+    box-sizing: border-box;
+    margin: 2px 0 0;
+    padding: 0;
+    width: 100%;
+  }
+}

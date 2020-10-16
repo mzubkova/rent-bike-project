@@ -1,0 +1,17 @@
+.social-section {
+  background: url(../images/footer-bg.jpg) no-repeat center/cover;
+  background-color: $footer-bg;
+  padding-bottom: 60px;
+
+  &-text {
+    color: $text-gray-5;
+    font-family: $main-font;
+    font-size: 1.8rem;
+    font-weight: $body-fw;
+    letter-spacing: 0;
+    line-height: 30px;
+    margin-bottom: 95px;
+    margin-top: 60px;
+    width: 354px;
+  }
+}

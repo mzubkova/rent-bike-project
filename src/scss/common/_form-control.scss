@@ -1,0 +1,87 @@
+.form-control {
+  position: relative;
+  width: 100%;
+
+  &__input {
+    background-color: $form-control-bg-color;
+    border: 2px solid $form-control-border-color;
+    color: $form-control-text-color;
+    font-family: $form-control-ff;
+    font-size: $form-control-fz;
+    font-weight: $body-fw-md;
+    height: 46px;
+    line-height: 1;
+    padding-left: 16px;
+    padding-right: 43px;
+    transition: color  0.2s ease-in, border-color  0.2s ease-in, background-color  0.2s ease-in;
+    width: 100%;
+
+    &--textarea {
+      height: auto;
+      min-height: 180px;
+      padding-top: 12px;
+    }
+
+    &::placeholder {
+      color: $form-control-text-color;
+    }
+
+    &:focus {
+      background-color: $form-control-active-bg-color;
+      border-color: $form-control-active-border-color;
+      color: $form-control-active-text-color;
+    }
+
+    &--error {
+      background-color: $form-control-error-bg-color !important;
+      border-color: $form-control-error-border-color !important;
+      color: $form-control-error-text-color !important;
+
+      &::placeholder {
+        color: $form-control-error-text-color !important;
+      }
+    }
+
+    &--success {
+      background-color: $form-control-success-bg-color !important;
+      border-color: $form-control-success-border-color !important;
+      color: $form-control-success-text-color !important;
+
+      &::placeholder {
+        color: $form-control-success-text-color !important;
+      }
+    }
+  }
+
+  &__icon {
+    color: $form-control-text-color;
+    font-size: $form-control-fz;
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &__error-icon {
+    color: $form-control-error-text-color;
+    display: none;
+  }
+
+  &__success-icon {
+    color: $form-control-success-text-color;
+    display: none;
+  }
+
+  &--error  &__icon,
+  &--success  &__icon {
+    display: none;
+  }
+
+  &--error &__error-icon {
+    display: block !important;
+  }
+
+  &--success &__success-icon {
+    display: block !important;
+  }
+}

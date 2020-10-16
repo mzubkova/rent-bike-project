@@ -1,0 +1,96 @@
+.preformatted-box {
+  background-color: $tag-bg;
+  border: 2px solid $tag-border;
+}
+
+.preformatted-tag {
+  color: $text-gray;
+  font-family: $main-font;
+  font-size: 1.8rem;
+  font-weight: $body-fw-md;
+  margin-bottom: 40px;
+
+  &-code {
+    color: $text-gray;
+    font-family: $tag-ff;
+    font-size: 1.8rem;
+    font-weight: $body-fw-md;
+    margin: 0;
+  }
+
+  &-word {
+    color: $text-gray-4;
+    font-family: $tag-ff-second;
+    font-size: 1.8rem;
+    font-weight: $body-fw;
+    line-height: 1.33;
+    white-space: nowrap;
+  }
+
+  &-text {
+    color: $text-gray-4;
+    font-family: $tag-ff-second;
+    font-size: 1.8rem;
+    font-weight: $body-fw;
+    line-height: 1.55;
+    padding: 0;
+    padding: 10px 0 9px 9px;
+    white-space: pre-line;
+    width: 230px;
+  }
+}
+
+.tag-box {
+  margin-bottom: 40px;
+  outline: 0;
+
+  &--lg {
+    border: 2px solid $btn-tag-border;
+    height: 45px;
+    margin-left: 10px;
+    outline: 0;
+    padding: 15px 25px;
+    width: 760px;
+  }
+
+  &--sm {
+    border: 2px solid $btn-tag-border;
+    margin-left: 10px;
+    outline: 0;
+    padding: 10px;
+    width: max-content;
+
+    &:hover {
+      background-color: $text-tag-hover;
+      border-style: none;
+    }
+  }
+}
+
+.text-tag {
+  color: $text-gray-5;
+  display: inline;
+  font-family: $secondary-font;
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-right: 25px;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $text-tag-hover;
+  }
+
+  &--sm {
+    color: $text-gray-5;
+    display: inline;
+    font-family: $secondary-font;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+    text-transform: uppercase;
+
+    &:hover {
+      color: $text-white;
+    }
+  }
+}

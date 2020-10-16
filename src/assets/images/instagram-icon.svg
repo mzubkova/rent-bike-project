@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="18" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="clip-Canvas">
+      <rect width="18" height="18"/>
+    </clipPath>
+  </defs>
+  <g id="Canvas" clip-path="url(#clip-Canvas)">
+    <rect width="18" height="18" fill="rgba(0,0,0,0)"/>
+    <image id="Шар_1" data-name="Шар 1" width="18" height="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABHNCSVQICAgIfAhkiAAAAQtJREFUOE+9lO0NAVEQRY8StEAJlEAJlEAJlEALSrAl0AH2xxagBFqQk7xJHtnFrsQkL/s55925M7u9U1kBzICFJx2iAHa9U1lNgEMHQJ6yFLQCNi1Aa+CS3h+l3GMX0BQ4JlBU8z/QFdDMe2qIpXidl2aj3iraAfohJKLJzyeQdbs03uThCyRgdlhv3MhwbJ5A7i7onI6aWhehKronuBGkB+MGkIqFvQVtgRvQT6AwNZjeV/EgPfe6VpGgkK5P82xmTN4Ddk4LLL12jpQqyAhDPRfoEmQ4EkI8fgSZoDI7EgBhzlA+El+Bcl/0QgWvUQvSWHdsE/rlZBd+tEq3E+7aNaaCTBbyy4/t+gA9QohsmfAs4QAAAABJRU5ErkJggg=="/>
+  </g>
+</svg>

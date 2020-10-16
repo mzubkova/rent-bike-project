@@ -1,0 +1,29 @@
+.list-marked {
+  color: $text-gray;
+  font-family: $main-font;
+  font-size: 1.8rem;
+  font-weight: $body-fw-md;
+  line-height: 1.8;
+  margin-left: 25px;
+  margin-top: 10px;
+
+  &-square {
+    list-style-image: url("../images/marked-list-square-icon.svg");
+    padding-left: 15px;
+  }
+
+  &-circle {
+    list-style-image: url("../images/marked-list--circle-icon.svg");
+    margin-left: 25px;
+    padding-left: 15px;
+  }
+
+  &-ordered {
+    list-style-image: none;
+    padding-left: 25px;
+  }
+
+  li + li {
+    margin-top: 10px;
+  }
+}

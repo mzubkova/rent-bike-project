@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="20" viewBox="0 0 10 20">
+  <defs>
+    <clipPath id="clip-Canvas">
+      <rect width="10" height="20"/>
+    </clipPath>
+  </defs>
+  <g id="Canvas" clip-path="url(#clip-Canvas)">
+    <rect width="10" height="20" fill="rgba(0,0,0,0)"/>
+    <image id="Шар_1" data-name="Шар 1" width="10" height="20" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAUCAYAAAC07qxWAAAABHNCSVQICAgIfAhkiAAAAIZJREFUKFNjPH3uEgMe4MLAwHCWgYHhPSMWhSDJDgYGBmMkA/agKwRJnsFiA4bCVQwMDKHEKHzHwMAgCFW4h4GBwRWmCd3q/0imVTAwMHSSpRDkAZh1u5FMnMXAwLAaygcHD0gSFCT4wCxiFVYQqzCMNr5G9gR1wnGomViO5GBQFgAlNTAAABRyVzqjSZYUAAAAAElFTkSuQmCC"/>
+  </g>
+</svg>
