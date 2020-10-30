@@ -1,7 +1,15 @@
 .social-section {
-  background: url(../images/footer-bg.jpg) no-repeat center/cover;
+  background: url(../images/parallax-bg-big.jpg) no-repeat center/cover;
   background-color: $footer-bg;
   padding-bottom: 60px;
+
+  &-title {
+    width: 500px;
+
+    &--green {
+      color: $bg-green;
+    }
+  }
 
   &-text {
     color: $text-gray-5;
@@ -13,5 +21,15 @@
     margin-bottom: 95px;
     margin-top: 60px;
     width: 354px;
+  }
+
+  &::before {
+    background: url(../images/mobile-img.jpg) no-repeat;
+    content: "";
+    height: 800px;
+    left: 1070px;
+    position: absolute;
+    transform: translateY(-5%) translateX(5%);
+    width: 100%;
   }
 }
