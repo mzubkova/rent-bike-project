@@ -5980,7 +5980,7 @@ tr:nth-child(even) {
 .icon {
   display: inline-block; }
 
-.title, .event-item__desc-title {
+.title, .event-item__desc-title, .gallery-box-title {
   font-family: "norwesterregular", sans-serif;
   font-weight: normal;
   letter-spacing: 0.2px;
@@ -7466,6 +7466,8 @@ tr:nth-child(even) {
   .page-section__header {
     margin-bottom: 55px;
     position: relative; }
+    .page-section__header-carousel {
+      margin-bottom: 100px; }
   .page-section__footer {
     background-color: #fff;
     height: 235px;
@@ -7547,13 +7549,13 @@ tr:nth-child(even) {
   position: relative;
   width: 370px; }
   .posts--first {
-    background: url(../images/bicycle-img2.jpg) top no-repeat;
+    background: url(../images/bicycle-img-2.jpg) top no-repeat;
     background-size: 410px; }
   .posts--second {
-    background: url(../images/bicycle-img6.jpg) top no-repeat;
+    background: url(../images/bicycle-img-6.jpg) top no-repeat;
     background-position: 0 100%; }
   .posts--third {
-    background: url(../images/bicycle-img9.jpg) top no-repeat;
+    background: url(../images/bicycle-img-9.jpg) top no-repeat;
     background-size: 410px; }
   .posts-description {
     background: -o-linear-gradient(40deg, #fff 95%, transparent 95%);
@@ -7642,9 +7644,53 @@ tr:nth-child(even) {
   .achievements-section__img {
     margin-bottom: 60px; }
 
+.gallery-section {
+  padding: 0; }
+
 .gallery-box {
-  width: 300px;
-  height: 300px; }
+  background-color: #658099;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: relative; }
+  .gallery-box__img {
+    height: 300px;
+    width: 300px; }
+  .gallery-box__info {
+    background: url(../images/view-bg.jpg) no-repeat center/cover;
+    height: 300px;
+    margin-left: auto;
+    width: 600px; }
+    .gallery-box__info-btn {
+      -webkit-transform: translateX(75%) translateY(250%);
+          -ms-transform: translateX(75%) translateY(250%);
+              transform: translateX(75%) translateY(250%); }
+  .gallery-box__content {
+    -webkit-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    will-change: transform; }
+    .gallery-box__content--hover {
+      opacity: 0;
+      -webkit-transform: scale(0);
+          -ms-transform: scale(0);
+              transform: scale(0); }
+  .gallery-box-title {
+    color: #fff;
+    font-size: 2.8rem;
+    margin-bottom: 40px; }
+  .gallery-box:hover .gallery-box__content {
+    opacity: 0;
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0); }
+    .gallery-box:hover .gallery-box__content--hover {
+      height: 300px;
+      opacity: 1;
+      -webkit-transform: scale(1);
+          -ms-transform: scale(1);
+              transform: scale(1);
+      width: 300px; }
 
 /* Slider */
 .slick-slider {
